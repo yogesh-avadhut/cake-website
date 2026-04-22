@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className={styles.bottomBar}>
         <p>© {new Date().getFullYear()} {business.name}. All rights reserved.</p>
-        <p>Made by yogiSoft with ❤️ and the latest technology.</p>
+        <p>Made by @yogiSoft with ❤️</p>
       </div>
     </footer>
   );
