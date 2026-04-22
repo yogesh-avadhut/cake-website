@@ -37,7 +37,7 @@ export const business = {
     "Near Hiremat Hospital, Opposite Shrimam Bahusaheb Zadbuke Complex, Agalgaon Road, Barshi",
   mapsLink: "https://maps.app.goo.gl/vULirxV6wAEpei5m6",
   embedMapUrl:
-    "https://www.google.com/maps?q=Near%20Hiremat%20Hospital%2C%20Opposite%20Shrimam%20Bahusaheb%20Zadbuke%20Complex%2C%20Agalgaon%20Road%2C%20Barshi&output=embed"
+"https://www.google.com/maps/place/New+gurukrupa+Kirana+stores/@18.2459247,75.6943167,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc455fe296d3573:0xdb8a5e0ca586e266!8m2!3d18.2459196!4d75.6968916!16s%2Fg%2F11k9sb28zf?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
 };
 
 export const navLinks: NavLink[] = [
