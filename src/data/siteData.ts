@@ -35,9 +35,8 @@ export const business = {
   defaultOrderMessage: "Hello Renuka's Kitchen, I want to order a cake 🎂",
   address:
     "Near Hiremat Hospital, Opposite Shrimam Bahusaheb Zadbuke Complex, Agalgaon Road, Barshi",
-  mapsLink: "https://maps.app.goo.gl/vULirxV6wAEpei5m6",
-  embedMapUrl:
-"https://www.google.com/maps/place/New+gurukrupa+Kirana+stores/@18.2459247,75.6943167,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc455fe296d3573:0xdb8a5e0ca586e266!8m2!3d18.2459196!4d75.6968916!16s%2Fg%2F11k9sb28zf?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
+  mapsLink: "https://www.google.com/maps/place/New+gurukrupa+Kirana+stores/@18.2459247,75.6943167,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc455fe296d3573:0xdb8a5e0ca586e266!8m2!3d18.2459196!4d75.6968916!16s%2Fg%2F11k9sb28zf?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D",
+  embedMapUrl: "https://www.google.com/maps/place/New+gurukrupa+Kirana+stores/@18.2459247,75.6943167,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc455fe296d3573:0xdb8a5e0ca586e266!8m2!3d18.2459196!4d75.6968916!16s%2Fg%2F11k9sb28zf?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
 };
 
 export const navLinks: NavLink[] = [
