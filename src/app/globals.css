@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff8f4;
+  --background-alt: #fff1ec;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: rgba(255, 255, 255, 0.94);
+  --text: #3f221d;
+  --muted: #6f4d49;
+  --border: rgba(137, 72, 92, 0.14);
+  --brand: #ef5a7a;
+  --brand-dark: #bf3f63;
+  --accent: #f4c97b;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255, 181, 171, 0.35), transparent 36%),
+    radial-gradient(circle at top right, rgba(244, 201, 123, 0.18), transparent 24%),
+    linear-gradient(180deg, #fff9f6 0%, #fff4ef 48%, #fff9f7 100%);
+  font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+  background-size: 72px 72px;
+  opacity: 0.25;
+  mask-image: radial-gradient(circle at center, black, transparent 82%);
+  z-index: -2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Georgia", serif;
+  letter-spacing: 0.02em;
+}
+
+main {
+  overflow: clip;
+}
+
+section {
+  position: relative;
+}
+
+::selection {
+  background: rgba(239, 90, 122, 0.18);
+  color: var(--text);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,103 @@
+.section {
+  padding: 4rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.visualWrap {
+  position: relative;
+}
+
+.imageFrame {
+  position: relative;
+  overflow: hidden;
+  min-height: 32rem;
+  border-radius: 2.4rem;
+  border: 1px solid rgba(137, 72, 92, 0.12);
+  box-shadow: 0 28px 70px rgba(54, 25, 34, 0.14);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.floatingCard {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  max-width: 16rem;
+  padding: 1rem 1.15rem;
+  border-radius: 1.4rem;
+  background: rgba(255, 250, 247, 0.86);
+  border: 1px solid rgba(137, 72, 92, 0.12);
+  box-shadow: 0 18px 45px rgba(54, 25, 34, 0.12);
+}
+
+.floatingCard strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.floatingCard span {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.points {
+  display: grid;
+  gap: 1rem;
+}
+
+.point {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+.highlightGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.highlightCard {
+  padding: 1rem;
+  border-radius: 1.35rem;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(137, 72, 92, 0.12);
+}
+
+.highlightCard span {
+  display: block;
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.highlightCard strong {
+  display: block;
+  margin-top: 0.55rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .imageFrame {
+    min-height: 23rem;
+  }
+
+  .floatingCard {
+    right: 1rem;
+    left: 1rem;
+    bottom: 1rem;
+    max-width: none;
+  }
+
+  .highlightGrid {
+    grid-template-columns: 1fr;
+  }
+}

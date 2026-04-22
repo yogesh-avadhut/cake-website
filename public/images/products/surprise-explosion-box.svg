@@ -1,0 +1,16 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="28" fill="#FFF6F2"/>
+  <path d="M84 144L160 92L236 144L160 196L84 144Z" fill="#EF5A7A"/>
+  <path d="M84 144L160 92V196L84 144Z" fill="#D94769"/>
+  <path d="M236 144L160 92V196L236 144Z" fill="#FF7F93"/>
+  <path d="M128 90L160 54L192 90H128Z" fill="#F4C97B"/>
+  <rect x="152" y="54" width="16" height="48" rx="8" fill="#FFF8F4"/>
+  <circle cx="88" cy="66" r="10" fill="#7ED0C5"/>
+  <circle cx="240" cy="64" r="9" fill="#FFD4C7"/>
+  <circle cx="160" cy="36" r="11" fill="#F4C97B"/>
+  <path d="M82 96L96 76" stroke="#7ED0C5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M238 92L224 74" stroke="#FFD4C7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M160 78V56" stroke="#F4C97B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M118 74C126 64 141 63 151 71C157 76 161 83 160 92C150 90 143 87 136 83C129 89 120 94 110 95C109 88 112 80 118 74Z" fill="#F14D73"/>
+  <path d="M202 74C194 64 179 63 169 71C163 76 159 83 160 92C170 90 177 87 184 83C191 89 200 94 210 95C211 88 208 80 202 74Z" fill="#FFB5AB"/>
+</svg>

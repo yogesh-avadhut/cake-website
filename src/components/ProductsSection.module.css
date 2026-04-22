@@ -1,0 +1,121 @@
+.section {
+  padding: 4rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.categoryCard {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(137, 72, 92, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 244, 240, 0.92));
+  box-shadow: 0 22px 50px rgba(54, 25, 34, 0.08);
+}
+
+.categoryTop {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.iconWrap {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(239, 90, 122, 0.16), rgba(244, 201, 123, 0.32));
+  color: var(--brand-dark);
+}
+
+.categoryTitle {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.categoryCopy {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.items {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.itemCard {
+  display: grid;
+  grid-template-columns: 7.25rem 1fr;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-radius: 1.4rem;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(137, 72, 92, 0.08);
+  transition: transform 0.28s ease;
+}
+
+.itemCard:hover {
+  transform: translateY(-4px);
+}
+
+.itemImageWrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  min-height: 6.2rem;
+  background: #fff4ef;
+}
+
+.itemImage {
+  object-fit: cover;
+}
+
+.itemBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.itemName {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.itemPrice {
+  flex-shrink: 0;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(239, 90, 122, 0.12);
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.itemDescription {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 520px) {
+  .itemCard {
+    grid-template-columns: 1fr;
+  }
+
+  .itemImageWrap {
+    min-height: 10.5rem;
+  }
+}

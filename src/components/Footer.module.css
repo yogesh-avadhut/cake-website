@@ -1,0 +1,68 @@
+.footer {
+  border-top: 1px solid rgba(137, 72, 92, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 247, 244, 0.92), rgba(255, 241, 236, 0.98));
+}
+
+.brandBlock {
+  display: grid;
+  gap: 1rem;
+}
+
+.copy {
+  margin: 0;
+  max-width: 26rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.heading {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+}
+
+.linkList,
+.contactList {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.link {
+  color: rgba(63, 34, 29, 0.84);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--brand-dark);
+}
+
+.bottomBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  padding: 0 1rem 1.5rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.bottomBar p {
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .bottomBar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bottomBar {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

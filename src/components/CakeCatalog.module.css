@@ -1,0 +1,122 @@
+.section {
+  padding: 6.5rem 0 2rem;
+  scroll-margin-top: 5rem;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 248, 244, 0.88));
+  box-shadow: 0 22px 48px rgba(54, 25, 34, 0.08);
+  transition:
+    transform 0.32s ease,
+    box-shadow 0.32s ease,
+    border-color 0.32s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 28px 60px rgba(54, 25, 34, 0.14);
+  border-color: rgba(239, 90, 122, 0.18);
+}
+
+.imageWrap {
+  position: relative;
+  aspect-ratio: 4 / 4.6;
+  overflow: hidden;
+  background: #ffe3e7;
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.07);
+}
+
+.topRow {
+  position: absolute;
+  inset: 1rem 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.price {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(63, 34, 29, 0.78);
+  color: #fff8f4;
+  font-size: 0.86rem;
+  font-weight: 700;
+  backdrop-filter: blur(8px);
+}
+
+.body {
+  padding: 1.4rem 1.4rem 1.2rem;
+}
+
+.copy {
+  min-height: 12rem;
+}
+
+.flavour {
+  margin: 0;
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.name {
+  margin: 0.7rem 0 0;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.description {
+  margin: 0.8rem 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.meta span {
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(239, 90, 122, 0.08);
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.orderButton {
+  margin-top: 1rem;
+  padding-left: 0;
+  color: var(--brand-dark);
+}
+
+.orderButton:hover {
+  color: var(--brand);
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: 5rem;
+  }
+
+  .copy {
+    min-height: auto;
+  }
+}
